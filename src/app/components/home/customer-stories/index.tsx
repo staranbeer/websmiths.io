@@ -16,7 +16,7 @@ function CustomerStories() {
               </h2>
             </div>
             <div className="flex flex-col gap-6">
-              <div className="flex flex-col xl:flex xl:flex-row gap-6">
+              <div className="flex  flex-col xl:flex xl:flex-row gap-6">
                 <div className="p-8 gap-64 rounded-2xl flex flex-col relative bg-[url('/images/home/customerStories/customer_bg_img.jpg')] object-cover bg-center h-full w-full bg-cover bg-no-repeat">
                   <span className="text-white/60 uppercase text-sm font-medium">
                     Customer stories
@@ -44,7 +44,7 @@ function CustomerStories() {
                 </div>
               </div>
               <div className="flex flex-col xl:flex xl:flex-row gap-6">
-                <div className="flex flex-col justify-between bg-dark_black xl:max-w-25 dark:bg-white/10 rounded-2xl p-8">
+                <div className="flex shrink-0 flex-col justify-between bg-dark_black xl:max-w-25 dark:bg-white/10 rounded-2xl p-8">
                   <div className="flex flex-col gap-6">
                     <span className="text-white/60 uppercase text-sm font-medium">
                       Customer stories
@@ -71,9 +71,16 @@ function CustomerStories() {
                       Customer stories
                     </span>
                     <h2 className="text-2xl lg:text-5xl">
-                      “Websmith brought our ideas to life with exceptional
-                      creativity and precision, exceeding expectations.”
+                      “It was a really good experience working with the
+                      Websmiths and their team. They are not just skilled at
+                      what they do, but also super easy to work with.
                     </h2>
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    <p className="font-medium">Dhruv Garg</p>
+                    <p className="text-dark_black/60 dark:text-white/60 text-sm font-medium">
+                      Novatech Business Solutions
+                    </p>
                   </div>
                 </div>
               </div>
